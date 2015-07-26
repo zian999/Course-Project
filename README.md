@@ -22,7 +22,7 @@ The `reshape2` package was required to `melt()` and `dcast()` the data frame.
 	- subject\_train.txt -> subj\_train
 	- X\_test.txt -> xtest\_df
 	- X\_train.txt -> xtrain\_df
-3. Merge the test and train data(xtest\_df & xtrain\_df), `cbind()` the subject number(subj\_test & subj\_train) and activity lables(act) to the left of the merged data, and name the cols with features.
+3. Merge the test and train data(xtest\_df & xtrain\_df), `cbind()` the subject number (subj\_test & subj\_train) and activity labels (act) to the left of the merged data, and name the cols with features.
 4. Extract the cols with "mean()" or "std()". Cols with "meanFreq()" are not included because it calculates the mean frequency not the mean value.
 5. Use the `melt()` and `dcast()` functions to get the narrow tidy data.
 6. Give the tidy data proper variable names and use `write.table()` function to create a .txt file.
